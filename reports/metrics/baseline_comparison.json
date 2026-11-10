@@ -1,0 +1,23 @@
+{
+    "Logistic Regression": {
+        "accuracy": 0.755,
+        "precision_weighted": 0.7546,
+        "recall_weighted": 0.755,
+        "f1_weighted": 0.7548,
+        "f1_macro": 0.7541
+    },
+    "Decision Tree": {
+        "accuracy": 0.5675,
+        "precision_weighted": 0.5779,
+        "recall_weighted": 0.5675,
+        "f1_weighted": 0.5708,
+        "f1_macro": 0.5702
+    },
+    "Random Forest": {
+        "accuracy": 0.695,
+        "precision_weighted": 0.693,
+        "recall_weighted": 0.695,
+        "f1_weighted": 0.6939,
+        "f1_macro": 0.6933
+    }
+}

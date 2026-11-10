@@ -15,6 +15,6 @@ def save_processed_data(df,filename):
     return PROCESSED_DATA_DIR
 
 
-def load_processed_data():
-    return pd.read_csv(PROCESSED_DATA_DIR / "processed_students.csv")
+def load_processed_data(filename):
+    return pd.read_csv(PROCESSED_DATA_DIR / filename)
 
