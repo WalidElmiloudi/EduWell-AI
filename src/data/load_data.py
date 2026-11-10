@@ -10,8 +10,8 @@ def load_raw_data(path):
     return pd.read_csv(path)
 
 
-def save_processed_data(df):
-    df.to_csv(PROCESSED_DATA_DIR / "processed_students.csv", index=False)
+def save_processed_data(df,filename):
+    df.to_csv(PROCESSED_DATA_DIR / filename, index=False)
     return PROCESSED_DATA_DIR
 
 
